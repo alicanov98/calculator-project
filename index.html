@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicons/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="manifest" href="./assets/images/favicons/site.webmanifest" />
+    <link
+      rel="apple-touch-icon"
+      href="./assets/images/favicons/apple-touch-icon.png"
+    />
+    <!-- Favicon -->
+    <link rel="stylesheet" href="./assets/main.css" />
+    <title>Caculator</title>
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="display">
+        <input type="text" placeholder="0" id="input" disabled />
+      </div>
+      <div class="buttons">
+        <div class="row">
+          <input type="button" value="C" id="clear" />
+          <input type="button" value="DEL" id="erase" />
+          <input type="button" value="/" class="input-button" />
+          <input type="button" value="*" class="input-button" />
+        </div>
+
+        <div class="row">
+          <input type="button" value="7" class="input-button" />
+          <input type="button" value="8" class="input-button" />
+          <input type="button" value="9" class="input-button" />
+          <input type="button" value="-" class="input-button" />
+        </div>
+
+        <div class="row">
+          <input type="button" value="6" class="input-button" />
+          <input type="button" value="5" class="input-button" />
+          <input type="button" value="4" class="input-button" />
+          <input type="button" value="+" class="input-button" />
+        </div>
+
+        <div class="btns">
+          <div class="btns2">
+            <div class="row2">
+              <input type="button" value="3" class="input-button" />
+              <input type="button" value="2" class="input-button" />
+              <input type="button" value="1" class="input-button" />
+            </div>
+
+            <div class="row3">
+              <input type="button" value="0" class="input-button" />
+              <input type="button" value="." class="input-button" />
+            </div>
+          </div>
+
+          <div><input type="button" value="=" id="equal" /></div>
+        </div>
+      </div>
+    </div>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
